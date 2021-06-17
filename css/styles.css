@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  background-color: #47597E;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+/*------------------------- navigation bar -------------------------*/
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+.dropdown-item {
+  padding: 0 10px 0 0;
+}
+
+/*------------------------- Carousel -------------------------*/
+#carouselCaptions {
+  margin-top: 10rem;
+}
+
+/*------------------------- Heading -------------------------*/
+.heading {
+  margin-top: 5%;
+  color: #fff;
+}
+
+/*------------------------- Hobbies page -------------------------*/
+.hobbieTitle {
+  margin-top: 10%;
+}
+
+.hobbies {
+  margin: 5% 10% 0 10%;
+}
+
+/*------------------------- Work Page -------------------------*/
+.cbtlHeading {
+  margin-left: 2%;
+}
+
+.sbHeading{
+  margin-left: 2%;
+}
+
+/*------------------------- Skills Page -------------------------*/
+.characterHead{
+  margin: 0 0 5% 0;
+}
+
+.characterP{
+  font-size: 120%;
+}
+
+.table{
+  margin: 5% 0 5% 0;
+}
+
+/*------------------------- Website Page -------------------------*/
+.foodCar{
+  color: black;
+  background-color: #DDDDDD;
+  font-size: 1.5rem;
+}
+
+.talkCar{
+  color: black;
+  background-color: #DDDDDD;
+  font-size: 1.5rem;
+}
+
+.webHeading2{
+  margin-top:15%;
+}
+/*------------------------- Pictures -------------------------*/
+.profile {
+  height: auto;
+  width: 40%;
+}
+
+.hobbyPic {
+  height: auto;
+  width: 100%;
+  padding: 5% 10% 0 10%;
+}
+
+.hobbyPic1 {
+  height: auto;
+  width: 100%;
+  padding: 5% 15% 0 15%;
+}
+
+.workPic {
+  height: auto;
+  width: 50%;
+  padding: 5% 15% 5% 15%;
+}
+
+/*------------------------- Footer -------------------------*/
+#footer {
+  margin-top: 5%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #47597E;
+  color: #fff;
+}
+
+.btn{
+margin: 0 0.5rem 1rem 0.5rem;
+}
