@@ -1,8 +1,8 @@
 body {
   text-align: center;
-  background-color: #47597E;
+  background-color: #F3F4ED;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #black;
   line-height: 2;
 }
 
@@ -43,7 +43,7 @@ ul {
 /*------------------------- Heading -------------------------*/
 .heading {
   margin-top: 5%;
-  color: #fff;
+  color: #black;
 }
 
 /*------------------------- Hobbies page -------------------------*/
@@ -93,6 +93,10 @@ ul {
 .webHeading2{
   margin-top:15%;
 }
+
+.webHeading3{
+  margin-top:15%;
+}
 /*------------------------- Pictures -------------------------*/
 .profile {
   height: auto;
@@ -117,11 +121,16 @@ ul {
   padding: 5% 15% 5% 15%;
 }
 
+.Pic{
+height: 50rem;
+width: 100%;
+}
+
 /*------------------------- Footer -------------------------*/
 #footer {
   margin-top: 5%;
   font-family: "Ubuntu", sans-serif;
-  background-color: #47597E;
+  background-color: #536162;
   color: #fff;
 }
 
