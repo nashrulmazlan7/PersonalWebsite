@@ -122,7 +122,7 @@ ul {
 }
 
 .Pic{
-height: 25rem;
+max-height: 40%;
 width: 100%;
 }
 
