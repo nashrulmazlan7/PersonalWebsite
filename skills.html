@@ -31,48 +31,49 @@
 
     <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #293b5f;">
-        <a class="navbar-brand" href="index.html">NM</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="qualification.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Qualifications
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="work.html">Work Experience</a></li>
-                <li><a class="dropdown-item" href="skills.html">Skills & Characteristics</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="web.html">Websites</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item"><a class="nav-link" href="mailto:nashrulmazlan7@gmail.com">Contact</a></li>
-
-          </ul>
+      <header>
+        <div class="collapse" style="background-color: #536162;" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">Nashrul Mazlan</h4>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <ul class="list-unstyled">
+                  <li><a class="btn btn-light" href="">Github</a></li>
+                  <li><a class="btn btn-light" href="">LinkedIn</a></li>
+                  <li><a class="btn btn-light" href="mailto:nashrulmazlan7@gmail.com">Contact me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
-
+        <div class="navbar navbar-light shadow-sm" style="background-color: #536162;">
+          <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+              <strong>NM</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
 
       <!-- Title -->
       <div class="row">
         <div class="col-lg-12">
           <div class="hobbieTitle">
+            <p>
+            <a class="btn btn-light" href="index.html">Main Page</a>
+            <a class="btn btn-light" href="hobbies.html">Hobbies</a>
+            <a class="btn btn-light" href="work.html">Work Experience</a>
+            <a class="btn btn-light" href="web.html">Projects</a>
+            </p>
             <h1 class="characterHead">My Skills & Characteristics</h1>
           </div>
         </div>
@@ -133,8 +134,12 @@
   </section>
 
 
+
+
 <!-- Footer -->
   <footer id="footer">
+    <br>
+    <p>    <a class="btn btn-light" href="skills.html">Back to top</a></p>
     <p>© Copyright 2021 Nashrul Mazlan</p>
   </footer>
 </body>
