@@ -122,8 +122,12 @@ ul {
 }
 
 .Pic{
-max-height: 60%;
-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+
 }
 
 /*------------------------- Footer -------------------------*/
