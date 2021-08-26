@@ -31,48 +31,50 @@
 
     <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #293b5f;">
-        <a class="navbar-brand" href="index.html">NM</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="qualification.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Qualifications
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="work.html">Work Experience</a></li>
-                <li><a class="dropdown-item" href="skills.html">Skills & Characteristics</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="web.html">Websites</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item"><a class="nav-link" href="mailto:nashrulmazlan7@gmail.com">Contact</a></li>
-
-          </ul>
+      <header>
+        <div class="collapse" style="background-color: #536162;" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">Nashrul Mazlan</h4>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <ul class="list-unstyled">
+                  <li><a class="btn btn-light" href="">Github</a></li>
+                  <li><a class="btn btn-light" href="">LinkedIn</a></li>
+                  <li><a class="btn btn-light" href="mailto:nashrulmazlan7@gmail.com">Contact me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
+        <div class="navbar navbar-light shadow-sm" style="background-color: #536162;">
+          <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+              <strong>NM</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
 
 
       <!-- Title -->
       <div class="row">
         <div class="col-lg-12">
           <div class="hobbieTitle">
+            <p>
+              <a class="btn btn-light" href="index.html">Main Page</a>
+              <a class="btn btn-light" href="skills.html">Characteristics</a>
+              <a class="btn btn-light" href="work.html">Work Experience</a>
+              <a class="btn btn-light" href="web.html">Projects</a>
+            </p>
             <h1> My Hobbies</h1>
           </div>
         </div>
@@ -83,124 +85,128 @@
   <!-- Cards -->
   <section class="hobbieCards">
     <!-- Hobbie Cards -->
-    <div class="row">
-      <!-- Travelling -->
-      <div class="hobbies col-lg-3">
-        <div class="travelling">
-          <div class="card text-white mb-3" style="width: 20rem; background-color: #293b5f;">
-            <img class="hobbyPic" src="images/travel.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Travelling</h5>
-              <p class="card-text">Exploring new places,culture & tasting different types of food around the world.</p>
-              <!-- dropdown -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Places I've been to
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Greece, Santorini</a></li>
-                  <li><a class="dropdown-item" href="#">Turkey, Istanbul</a></li>
-                  <li><a class="dropdown-item" href="#">USA, Los Angeles</a></li>
-                  <li><a class="dropdown-item" href="#">Maldives</a></li>
-                  <li><a class="dropdown-item" href="#">London</a></li>
-                  <li><a class="dropdown-item" href="#">Italy</a></li>
-                  <li><a class="dropdown-item" href="#">Germany</a></li>
-                  <li><a class="dropdown-item" href="#">Switzerland</a></li>
-                  <li><a class="dropdown-item" href="#">Australia</a></li>
-                  <li><a class="dropdown-item" href="#">Hong Kong</a></li>
-                  <li><a class="dropdown-item" href="#">Taiwan</a></li>
-                  <li><a class="dropdown-item" href="#">Indonesia</a></li>
-                </ul>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="Pic" src="images/travel.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Travelling</h5>
+                <p class="card-text">Exploring new places,culture & tasting different types of food around the world.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Places I've been to
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Greece, Santorini</a></li>
+                      <li><a class="dropdown-item" href="#">Turkey, Istanbul</a></li>
+                      <li><a class="dropdown-item" href="#">USA, Los Angeles</a></li>
+                      <li><a class="dropdown-item" href="#">Maldives</a></li>
+                      <li><a class="dropdown-item" href="#">London</a></li>
+                      <li><a class="dropdown-item" href="#">Italy</a></li>
+                      <li><a class="dropdown-item" href="#">Germany</a></li>
+                      <li><a class="dropdown-item" href="#">Switzerland</a></li>
+                      <li><a class="dropdown-item" href="#">Australia</a></li>
+                      <li><a class="dropdown-item" href="#">Hong Kong</a></li>
+                      <li><a class="dropdown-item" href="#">Taiwan</a></li>
+                      <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="Pic" src="images/lemon.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Baking</h5>
+                <p class="card-text">I love baking because of the heavenly aroma of something sweet in the oven & that it always feels a little bit indulgent.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Things I bake
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Lemon Meringue</a></li>
+                      <li><a class="dropdown-item" href="#">Brownies</a></li>
+                      <li><a class="dropdown-item" href="#">Cranberry Apple Danish</a></li>
+                      <li><a class="dropdown-item" href="#">Lemon Pie with Blueberry Merinuge</a></li>
+                      <li><a class="dropdown-item" href="#">Raspberrry Souffles</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="Pic" src="images/game.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Gaming</h5>
+                <p class="card-text">What can i say about this, I'm still young.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Games I play
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Dota 2</a></li>
+                      <li><a class="dropdown-item" href="#">Gears of War</a></li>
+                      <li><a class="dropdown-item" href="#">Halo</a></li>
+                      <li><a class="dropdown-item" href="#">Call of Duty</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="Pic" src="images/fit.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Keeping Fit</h5>
+                <p class="card-text">A few ways i like to try to keep fit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Activities
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hikking</a></li>
+                      <li><a class="dropdown-item" href="#">Football</a></li>
+                      <li><a class="dropdown-item" href="#">Cycling</a></li>
+                      <li><a class="dropdown-item" href="#">Gymming</a></li>
+                      <li><a class="dropdown-item" href="#">Floorball</a></li>
+                      <li><a class="dropdown-item" href="#">Rugby</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Baking -->
-      <div class="hobbies col-lg-3">
-        <div class="baking">
-          <div class="card text-white mb-3" style="width: 20rem; background-color: #293b5f;">
-            <img class="hobbyPic1" src="images/lemon.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Baking</h5>
-              <p class="card-text">I love baking because of the heavenly aroma of something sweet in the oven & that it always feels a little bit indulgent.</p>
-              <!-- dropdown -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Things I bake
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Lemon Meringue</a></li>
-                  <li><a class="dropdown-item" href="#">Brownies</a></li>
-                  <li><a class="dropdown-item" href="#">Cranberry Apple Danish</a></li>
-                  <li><a class="dropdown-item" href="#">Lemon Pie with Blueberry Merinuge</a></li>
-                  <li><a class="dropdown-item" href="#">Raspberrry Souffles</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Gaming -->
-      <div class="hobbies col-lg-3">
-        <div class="gaming">
-          <div class="card text-white mb-3" style="width: 20rem; background-color: #293b5f;">
-            <img class="hobbyPic" src="images/game.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gaming</h5>
-              <p class="card-text">What can i say about this, I'm still young.</p>
-              <!-- dropdown -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Games I play
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Dota 2</a></li>
-                  <li><a class="dropdown-item" href="#">Gears of War</a></li>
-                  <li><a class="dropdown-item" href="#">Halo</a></li>
-                  <li><a class="dropdown-item" href="#">Call of Duty</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sports -->
-      <div class="hobbies col-lg-3">
-        <div class="sports">
-          <div class="card text-white mb-3" style="width: 20rem; background-color: #293b5f;">
-            <img class="hobbyPic1" src="images/fit.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Keeping Fit</h5>
-              <p class="card-text">A few ways i like to try to keep fit.</p>
-              <!-- dropdown -->
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Activities
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Hikking</a></li>
-                  <li><a class="dropdown-item" href="#">Football</a></li>
-                  <li><a class="dropdown-item" href="#">Cycling</a></li>
-                  <li><a class="dropdown-item" href="#">Gymming</a></li>
-                  <li><a class="dropdown-item" href="#">Floorball</a></li>
-                  <li><a class="dropdown-item" href="#">Rugby</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
+
+
+
+
   </section>
 
 
-<!-- Footer -->
+
+
+
+
+
+  <!-- Footer -->
   <footer id="footer">
+    <br>
+    <p><a class="btn btn-light" href="hobbies.html">Back to top</a></p>
     <p>© Copyright 2021 Nashrul Mazlan</p>
   </footer>
 </body>
