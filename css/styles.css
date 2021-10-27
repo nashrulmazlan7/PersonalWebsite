@@ -1,13 +1,13 @@
 body {
   text-align: center;
   background-color: #F3F4ED;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: #black;
   line-height: 2;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   line-height: 1.5;
 }
 
@@ -55,14 +55,12 @@ ul {
   margin: 2%;
 }
 
-
-.col-lg-2{
+.col-lg-2 {
   display: inline;
   float: left;
   width: 100%;
   padding: 1rem 2rem;
   height: auto;
-
 }
 
 .column11 {
@@ -82,7 +80,6 @@ ul {
   padding-top: 2rem;
   height: 110%;
 }
-
 
 .profile1 {
   height: auto;
@@ -125,6 +122,12 @@ ul {
   font-size: 1.5rem;
 }
 
+.diceCar {
+  color: black;
+  background-color: #DDDDDD;
+  font-size: 1.5rem;
+}
+
 .webHeading2 {
   margin-top: 15%;
 }
@@ -145,22 +148,22 @@ ul {
   padding: 5% 15% 5% 15%;
 }
 
-.trav{
+.trav {
   height: auto;
   width: 50%;
 }
 
-.bakes{
+.bakes {
   height: auto;
   width: 42%;
 }
 
-.james{
+.james {
   height: auto;
   width: 60%;
 }
 
-.fit{
+.fit {
   height: auto;
   width: 35%;
 }
@@ -280,8 +283,7 @@ ul {
   color: white;
 }
 
-
-.ulR{
+.ulR {
   font-size: 120%;
 }
 
