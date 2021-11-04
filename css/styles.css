@@ -179,13 +179,6 @@ ul {
   margin: 0 0.5rem 1rem 0.5rem;
 }
 
-#footerR {
-  font-family: "Ubuntu", sans-serif;
-  margin: 10rem 2rem;
-  background-color: #8CA1A5;
-  color: #fff;
-}
-
 #footerH {
   font-family: "Ubuntu", sans-serif;
   margin: 10rem 2rem;
@@ -245,15 +238,19 @@ ul {
 }
 
 /* ----------------------- Resume Page ----------------*/
-.headingR {
-  color: white;
-}
 
 .headingResume {
   margin-top: 5rem;
   display: block;
   height: 100px;
   padding: 5px;
+}
+
+
+.profile1 {
+  height: auto;
+  width: 40%;
+  float: right;
 }
 
 .column1 {
@@ -264,13 +261,7 @@ ul {
   padding-top: 2rem;
   height: 425px;
   /* Should be removed. Only for demonstration */
-  color: white;
-}
-
-.profile1 {
-  height: auto;
-  width: 40%;
-  float: right;
+  color: black;
 }
 
 .column2 {
@@ -280,7 +271,30 @@ ul {
   padding: 10px;
   height: 425px;
   /* Should be removed. Only for demonstration */
-  color: white;
+  color: black;
+}
+
+
+.column1R {
+  display: inline;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 425px;
+  /* Should be removed. Only for demonstration */
+  color: black;
+}
+
+
+
+.column2R {
+  display: inline;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 425px;
+  /* Should be removed. Only for demonstration */
+  color: black;
 }
 
 .ulR {
